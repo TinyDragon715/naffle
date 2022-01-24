@@ -1,0 +1,29 @@
+.ProfileContent{
+    display: flex;
+    padding-top: 50px;
+    height: 100%;
+}
+.ProfileContentInRow{
+    max-width: 1400px;
+}
+.TransactionTest{
+    width: 100%;
+
+}
+@media screen and (max-width:1290px){
+    .ProfileContentInRow{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .UserProfileCard{
+        width: 100% !important;
+    }
+    .ProfileCardGrid{
+        width: 100%;
+    }
+    .ProfilePriceTableRow{
+        width: 100%;
+    }
+
+}

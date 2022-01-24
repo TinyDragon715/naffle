@@ -1,0 +1,45 @@
+.ProfilePriceTableRow{
+    background-color: #01e0dd !important;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 10px;
+    max-width: 950px !important;
+    margin-bottom: 80px;
+    overflow: auto;
+}
+.TranSactionCaption{
+    font-family: Bebas Neue;
+    font-size: 32px;
+    color: white;
+}
+.ProfilePriceTableRow table{
+    color: white;
+    border-top: 1px solid white;
+}
+.ProfilePriceTableRow th{
+    font-family: Bebas Neue;
+    font-size: 26px;
+}
+.ProfilePriceTableRow td{
+    font-family: Bebas Neue;
+    font-size: 20px;
+}
+.ProfilePriceTableRow table,td,th{
+    text-align: left !important;
+    padding: 10px;
+}
+@media screen and (max-width:1290px) {
+    .ProfilePriceTableRow{
+        max-width: 700px !important;
+    }
+}
+@media screen and (max-width:740px) {
+    .ProfilePriceTableRow{
+        max-width: 500px !important;
+    }
+}
+@media screen and (max-width:525px) {
+    .ProfilePriceTableRow{
+        max-width: 270px !important;
+    }
+}

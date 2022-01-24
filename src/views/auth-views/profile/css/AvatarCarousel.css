@@ -1,0 +1,393 @@
+@font-face {
+  font-family: 'Bold-stamp';
+  src: url(../../../../assets/font/damageplan-font/DPUB.ttf);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.Profilecard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  position: relative;
+  max-width: 250px !important;
+  margin-left: 20px;
+  /* background-color: #64eeec !important; */
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border-radius: 5px;
+}
+.TextOpenSea {
+  font-weight: 600 !important;
+  font-size: 20px;
+  font-family: Bebas Neue !important;
+}
+.ProfileCarouselRow {
+  max-width: 920px;
+  padding: 20px;
+}
+
+.ProfileBlogger {
+  max-width: 250px !important;
+  height: 190px !important;
+}
+.Profilecard-body {
+  max-width: 250px !important;
+}
+.ProfileCarousel .react-multiple-carousel__arrow--right {
+  right: 0px !important;
+}
+.ProfileCarousel .react-multiple-carousel__arrow--left {
+  left: unset !important;
+  left: 0px !important;
+}
+.ProfileCarousel {
+  width: 100%;
+  margin: auto;
+}
+.ProfileCarouselRow {
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.ProfileBloggerRow {
+  margin: auto;
+}
+.ProfileBlogger {
+  /* border-radius: 20px 20px 0px 0px !important; */
+}
+.ProfileCarousel .react-multiple-carousel__arrow {
+  background: none !important;
+}
+.ProfileCarousel .react-multi-carousel-track {
+  background-color: unset !important;
+}
+.ProfileCarousel .react-multiple-carousel__arrow::before {
+  color: #01e0dd !important;
+}
+.ProfileCarousel .react-multiple-carousel__arrow {
+  background-color: black !important;
+}
+.Profilecard-title {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 18px;
+  /* or 100% */
+  text-align: center;
+  /* Main black */
+  color: white;
+  margin-top: 5px;
+  width: 100%;
+  display: flex;
+  margin-bottom: 6px;
+}
+.Split {
+  flex: 1;
+}
+.ProfileBNBCCaption {
+  font-family: Bebas Neue;
+  margin-bottom: 10px;
+  font-size: 50px;
+  text-align: center;
+  padding-left: 20px;
+}
+
+.Profilecard-body {
+  background-color: #64eeec !important;
+  height: max-content;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.ProfileCenterCircle {
+  position: absolute;
+  max-width: 50px;
+  border-radius: 100%;
+  top: 165px;
+}
+.Profilecard-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 100%;
+  /* identical to box height, or 14px */
+  text-align: center;
+  /* Strong grey */
+  color: white;
+  width: 100%;
+  word-wrap: break-word;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.Profilecard-price {
+  margin-top: 10px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 100%;
+  /* identical to box height, or 14px */
+  text-align: center;
+  /* Strong grey */
+  color: white;
+}
+@media screen and (max-width: 990px) {
+  .ProfileCarouselRow {
+    max-width: 690px;
+  }
+  .ProfileCarousel .react-multiple-carousel__arrow--right {
+    right: 35px !important;
+  }
+  .ProfileCarousel .react-multiple-carousel__arrow--left {
+    left: 0px !important;
+  }
+}
+@media screen and (max-width: 720px) {
+  .ProfileCarouselRow {
+    max-width: 390px;
+  }
+  .Profilecard {
+    max-width: 300px;
+    margin-left: 40px;
+  }
+  .ProfileCarousel .react-multiple-carousel__arrow--right {
+    display: block;
+    right: 35px !important;
+  }
+  .ProfileCarousel .react-multiple-carousel__arrow--left {
+    display: block;
+    left: 20px !important;
+  }
+}
+@media screen and (max-width: 420px) {
+  .ProfileCarouselRow {
+    max-width: 250px;
+  }
+  .Profilecard {
+    max-width: 170px;
+    margin-left: 20px;
+  }
+  .ProfileBlogger {
+    max-width: 170px !important;
+    max-height: 200px;
+  }
+  .Profilecard-body {
+    max-width: 170px !important;
+  }
+  .ProfileCarousel .react-multiple-carousel__arrow--right {
+    right: 0px !important;
+  }
+  .ProfileCarousel .react-multiple-carousel__arrow--left {
+    left: unset !important;
+    left: 10px !important;
+  }
+  .ProfileCenterCircle {
+    top: 180px;
+  }
+}
+
+/*flip-card-style*/
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  cursor: pointer;
+  position:relative;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+
+.flip-card:hover .flip-card-inner{
+  transform: rotateY(180deg);
+  /* border: 1px solid black; */
+}
+
+/* #test{
+    border: 1px solid red;
+    position: absolute;
+    z-index: 10;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+} */
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: transparent;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #01e0dd;
+  color: white;
+  transform: rotateY(180deg);
+  /* border-radius: 20px; */
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  justify-content: center;
+  align-items: center;
+}
+
+.flip-card-back-overlay {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-form-submit {
+    width: 100%;
+    justify-content: center;
+}
+
+.card-submit {
+    text-align: center;
+    justify-content: center;
+    border: none;
+    height: 50px;
+    align-items: center;
+    font-size: 35px;
+    font-family: "Bold-stamp";
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.card-submit span {
+    display: flex;
+}
+
+.react-datetime-picker {
+    background-color: #ffffff;
+}
+
+.react-calendar {
+    background-color: #ffffff;
+    z-index: 9999;
+}
+
+.react-datetime-picker__clear-button {
+    display: none;
+}
+
+.react-datetime-picker__calendar-button {
+    display: none;
+}
+
+.ant-picker-ranges {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+
+.ant-picker-dropdown {
+    border-radius: 10px !important;
+    padding: 5px !important;
+}
+
+.stamp-image {
+    position : absolute;
+    left: 10%;
+    top: 5%;
+    width: 200px;
+    display: none;
+}
+
+.stamp-banner {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    height: 100px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    background-color: #01e0dd;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+  
+.react-multi-carousel-item {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+
+.flip-card-back {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.bold-stamp {
+  font-family: 'bold-stamp';
+  font-size: 24px !important;
+}
+
+.filtered-card-back {
+  width: 100%;
+  height: 100%;
+}
+
+.antd-override-button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-form-item {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-input-number-input-wrap {
+  background-color: transparent !important;
+}
+
+input::placeholder {
+  color: #01e0dd !important;
+}
+
+img.ProfileBlogger {
+  /* background-image: url(../../../../assets/image/Sell/stamp.png) !important; */
+}

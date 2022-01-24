@@ -1,0 +1,31 @@
+.CoverTable{
+    background-color:#01e0dd;
+    padding:20px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.CoverTable table{
+    width: 100%;
+    text-align: center;
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 20px;
+}
+.CoverTable table thead{
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+.CoverTable table tbody{
+    padding-top: 5px !important;
+}
+
+.TableCaption{
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 35px;
+    width: 100%;
+    border-bottom: 2px solid white;
+}
+.NFTHistory{
+    margin-bottom: 80px;
+}

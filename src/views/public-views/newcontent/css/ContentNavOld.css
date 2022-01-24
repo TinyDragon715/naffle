@@ -1,0 +1,80 @@
+.ContentNav{
+    width: 95%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.ContentNav .ant-select-selection-item{
+    background-color: white !important;
+}
+.ContentNav .ant-select-selector{
+    background-color: white !important;
+    border-radius: 10px !important;
+}
+.Rectangle{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    margin-right: 10px;
+}
+.CreditRow{
+    margin-right: 35px;
+}
+.SizeSelect{
+    margin-right: 20px;
+}
+.SizeSelect .ant-select-selector{
+    height: 50px !important;
+}
+.DesSelect .ant-select-selector{
+    height: 50px !important;
+}
+.DesSelect{
+    margin-right: 20px;
+}
+.ContentNav .ant-radio-group{
+    display: flex;
+}
+.GridViewRadio .ant-radio-button-wrapper{
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:1150px) {
+    .ContentNav{
+        flex-direction: column;
+    }
+    .DesSelect{
+        margin: 0px;
+        margin-top: 10px;
+    }
+    .SizeSelect{
+        margin: 0px;
+        margin-top: 10px;
+    }
+    .CreditRow{
+        margin: 0px;
+    }
+    .CreditRow{
+        margin-top: 10px;
+    }
+    .GridViewRadio{
+        margin-top: 10px;
+    }
+}
+.InputSelectRow{
+    width: 95%;
+    padding: 10px;
+}
+.InputSelectRow .ant-select-selector{
+    background-color: white !important;
+    border: 0px !important;
+    padding: 10px;
+}
+.InputSelectRow .ant-select{
+    background-color: white;
+    border: 0px !important;
+}

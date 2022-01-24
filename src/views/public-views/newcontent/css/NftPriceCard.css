@@ -1,0 +1,172 @@
+.NewContentPrice{
+    margin-left: 5px;
+    color:#f3f31b;
+}
+.NewContentCircle{
+    position: absolute;
+    max-width:70px;
+    border-radius: 100%;
+    top: 260px;
+    left: 150px;
+    z-index: 10;
+}
+.new-caption{
+    font-weight: 300;
+}
+.NftPriceImg{
+    border-radius: 20px 20px 0px 0px !important;
+}
+.NftPriceCard .ant-card-body{
+    border-radius: 0px 0px 20px 20px;
+    padding: 10px;
+}
+.NewPriceDes{
+    margin-top: 25px;
+}
+.NftPriceDesText{
+    display: flex;
+    flex-direction: column;
+}
+.CollectionContact{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.TicketPriceInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.EqualCurrency{
+    color: white;
+    font-family: Bebas Neue;
+    font-size: 20px;
+}
+.NftPriceMark{
+    max-width: 40px !important;
+}
+.NewPriceTypeBig{
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 20px;
+}
+.NftPriceTypeSmall{
+    font-family: Bebas Neue;
+    color: #f5fe5e;
+    word-wrap: break-word;
+}
+.TicketsAmountInfo{
+    display: flex;
+}
+.TicketsAmountInfo:first-child{
+    align-items: flex-start;
+}
+.TicketsAmountInfo:last-child{
+    align-items: flex-end;
+}
+.CollectionID{
+    font-family: Bebas Neue;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.TicketRow{
+    margin-top: 5px;
+}
+.NewContentCol{
+    font-family: Bebas Neue;
+    font-size: 17px;
+    color: white;
+}
+.NewContentCol:last-child{
+    align-items: flex-end;
+}
+.SpecTickAmount{
+    font-size: 15px;
+    color: white;
+    font-family: Bebas Neue;
+    font-weight: 200;
+}
+.TicketAmount{
+    font-family: Bebas Neue;
+    color: #f5fe5e;
+    font-size: 15px;
+    line-height:15px;
+    font-weight:200;
+    margin-left: 5px;
+}
+.PriceCaption{
+    color: #f5fe5e;
+    font-family: Bebas Neue;
+}
+.Price{
+    color: #f5fe5e;
+    font-family: Bebas Neue;
+    font-size: 30px;
+    margin-left: 5px;
+}
+.PriceImg{
+    max-width: 20px;
+    margin-right: 5px;
+}
+.DelayDay{
+    color: #f5fe5e;
+    font-family: Bebas Neue;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+@media screen and (max-width:1870px) {
+    .NewContentCircle{
+        top: 225px;
+        left: 130px;
+    }
+}
+@media screen and (max-width:1620px) {
+    .NewContentCircle{
+        top: 195px;
+        left: 115px;
+    }
+}
+@media screen and (max-width:1550px) {
+    .NewContentCircle{
+        top: 165px;
+        left: 110px;
+    }
+}
+@media screen and (max-width:1470px) {
+    .NewContentCircle{
+        top: 135px;
+        left: 90px;
+    }
+}
+@media screen and (max-width:1390px) {
+    .NewContentCircle{
+        top: 115px;
+        left: 80px;
+    }
+}
+@media screen and (max-width:1260px) {
+    .NewContentCircle{
+        top: 115px;
+        left: 55px;
+    }
+}
+@media screen and (max-width:1020px) {
+    .NewContentCircle{
+        top: 140px;
+        left: 85px;
+    }
+}
+@media screen and (max-width:640px) {
+   .NftPriceCard{
+       width: 300px !important;
+   }
+}
+@media screen and (max-width:560px) {
+    .NftPriceCard{
+        width: 240px !important;
+    }
+ }

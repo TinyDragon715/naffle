@@ -1,0 +1,208 @@
+
+.PageLogo {
+    max-width: 180px;
+    height: auto;
+}
+.GlobalHeader {
+    background-color: #292929;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: row wrap;
+    position: sticky;
+    z-index: 9;
+}
+.GlobalHeader > *{
+    z-index: 3 !important;
+}
+.HeaderRow{
+    width: 1700px;
+    padding: 20px;
+}
+.ToolItem{
+    font-family: Bebas Neue;
+    font-size: 18px;
+    color: black;
+}
+.ExploreItem::after{
+    content: "";
+    display: block;
+    position: absolute;
+    margin-top: 30px;
+    width: 80px;
+    border: 3px solid #02e3dc;
+    border-radius: 20px 20px 0px 0px;
+    transform: scale(0);
+    transition: all 0.5s;
+}
+.ExploreItem:hover{
+    color: #02e3dc;
+}
+.SellItem:hover{
+    color: #02e3dc;
+}
+.SellItem:hover::after{
+    transform: scale(1);
+}
+.ExploreItem:hover::after{
+    transform: scale(1);
+}
+.SellItem::after{
+    content: "";
+    display: block;
+    border: 3px solid #02e3dc;
+    position: absolute;
+    margin-top: 30px;
+    border-radius: 20px 20px 0px 0px;
+    width: 40px;
+    transform: scale(0);
+    transition: all 0.5s;
+}
+.HeaderTool{
+    gap: 40px;
+    z-index: 3 !important;
+}
+.SearchBar{
+    flex: 1;
+}
+.MenuShow{
+    font-size: 30px;
+    display: none;
+}
+.SearchInput {
+    width: 60%;
+    border-radius: 10px;
+}
+.CircleSpin-Error {
+    width: 12px;
+    height: 12px;
+    background-color: #fadfee;
+    border: 1px solid #d43f4e;
+    border-radius: 100%;
+}
+
+.CircleSpin-Success {
+    width: 12px;
+    height: 12px;
+    background-color: #82f8b7;
+    border: 1px solid #3af129;
+    border-radius: 100%;
+}
+
+.WalletStatus {
+    color: #7a7a7a;
+    margin-left: 40px;
+}
+.WalletText{
+    margin-left: 5px;
+}
+
+.ant-input-group-addon{
+    background-color: #292929;
+    color: #7a7a7a;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.PersonItem {
+    font-size: 30px;
+    cursor: pointer;
+}
+.Expand{
+    flex: 1;
+    display: none;
+}
+.SearchShow{
+    color: #fdfe40;
+    font-size: 22px;
+    display: none;
+}
+.MenuActive{
+    height: auto !important;
+}
+.SearchActive{
+    display: block;
+}
+@media screen and (max-width:1110px) {
+    .HeaderTool{
+        display: none;
+    }
+    .MenuShow{
+        display: block;
+    }
+    .WalletStatus{
+        display: none;
+    }
+    .ExploreItem::after{
+        content: none;
+    }
+    .SellItem::after{
+        content: none;
+    }
+    .HeaderTool{
+        position: absolute;
+        width: 100vw;
+        left: 0px;
+        right: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: 100px;
+        overflow: hidden;
+        background-color:#292929 ;
+        height: 0px;
+    z-index: 10;
+        
+    }
+    .ToolItem{
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width:870px) {
+    .SearchBar{
+        display: none;
+    }
+    .Expand{
+        display: block;
+    }
+    .SearchShow{
+        display: block;
+    }
+}
+
+.white{
+    background-color: white !important;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 10px 20px -20px;
+}
+.whiteIn .ant-input-group-addon{
+    background-color: white !important;
+}
+
+.ant-input-prefix svg{
+    fill: #c1bebe;
+}
+
+#components-dropdown-demo-arrow .ant-btn {
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+.ant-row-rtl #components-dropdown-demo-arrow .ant-btn {
+    margin-right: 0;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+
+.ant-dropdown {
+    width: 200px;
+}
+
+.ant-dropdown-menu {
+    background-color: #ffffff;
+}
+
+.ant-dropdown-menu-item {
+    text-align: center;
+    background-color: #ffffff;
+}

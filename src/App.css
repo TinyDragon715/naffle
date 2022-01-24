@@ -1,0 +1,25 @@
+@import '~antd/dist/antd.css';
+.ant-card-body{
+    background-color: #01e0dd !important;
+    border-radius: 0px 0px 20px 20px;
+    padding: 10px;
+}
+.ant-card{
+    border-radius: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.theme-background {
+    background-color: #01e0dd !important;
+}
