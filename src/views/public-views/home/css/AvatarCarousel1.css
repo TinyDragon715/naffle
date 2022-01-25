@@ -1,0 +1,219 @@
+.Homecard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: relative;
+}
+.UpdateCardText{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    font-family: Bebas Neue;
+    color: white;
+}
+.UpdateTP{
+    font-size: 20px;
+    line-height: 25px;
+}
+.UpdateTL{
+    font-size: 20px;
+    line-height: 25px;
+}
+.TLLeft{
+    line-height: 20px;
+    font-weight: 200;
+}
+.TLtext{
+    line-height: 20px;
+}
+.Col{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.ColLeft{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.Split{
+    flex: 1;
+}
+.HomeCarousel {
+    width: 100%;
+    margin: auto;
+}
+.HomeCarouselRow {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.HomeBloggerRow {
+    margin: auto;
+}
+.HomeBlogger{
+    border-radius: 20px 20px 0px 0px !important;
+}
+.HomeCarousel .react-multiple-carousel__arrow {
+    background: none !important;
+}
+.HomeCarousel .react-multi-carousel-track{
+    background-color: unset !important;
+}
+.HomeCarousel .react-multiple-carousel__arrow::before {
+    color: #01e0dd !important;
+}
+.HomeCarousel .react-multiple-carousel__arrow{
+    background-color: white !important;
+    border: 1px solid #eee !important;
+}
+.Homecard-title {
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 18px;
+    /* or 100% */
+    text-align: center;
+    /* Main black */
+    color: white;
+    margin-top: 25px;
+}
+.HomeBNBCCaption{
+    font-family: Bebas Neue;
+    margin-bottom: 60px;
+    font-size: 50px;
+    text-align: center;
+}
+.HomeCarousel .react-multiple-carousel__arrow--right {
+    right: 10px !important;
+}
+.HomeCarousel .react-multiple-carousel__arrow--left {
+    left: unset !important;
+    left: 10px !important;
+}
+.Homecard-body{
+    background-color: #01e0dd !important;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 10px 20px;
+    border-radius: 0px 0px 20px 20px !important;
+}
+.HomeCenterCircle{
+    position: absolute;
+    max-width: 50px;
+    border-radius: 100%;
+    top: 375px;
+}
+.Homecard-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 14px */
+    text-align: center;
+    /* Strong grey */
+    color: white;
+
+}
+.Homecard-price{
+    margin-top: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 14px */
+    text-align: center;
+    /* Strong grey */
+    color: white;
+}
+@media screen and (max-width:1410px) {
+  .HomeCarouselRow{
+      max-width: 990px;
+  }
+  .Homecard{
+      max-width: 300px;
+      margin-left: 15px;
+  }
+  .HomeBlogger{
+      max-width: 300px !important;
+      max-height: 250px;
+  }
+  .Homecard-body{
+      max-width: 300px !important;
+  }
+  .HomeCarousel .react-multiple-carousel__arrow--right {
+    right: 0px !important;
+}
+.HomeCarousel .react-multiple-carousel__arrow--left {
+    left: unset !important;
+    left: 0px !important;
+}
+.HomeCenterCircle{
+    top: 220px;
+}
+}
+@media screen and (max-width:990px) {
+    .HomeCarouselRow{
+        max-width: 690px;
+    }
+    .HomeCarousel .react-multiple-carousel__arrow--right {
+        right: 5px !important;
+    }
+    .HomeCarousel .react-multiple-carousel__arrow--left {
+        left: 0px !important;
+    }
+}
+@media screen and (max-width:690px) {
+    .HomeCarouselRow{
+        max-width: 390px;
+    }
+    .Homecard{
+        max-width: 300px;
+        margin-left: 40px;
+    }
+    .HomeCarousel .react-multiple-carousel__arrow--right {
+        display: block;
+        right: 20px !important;
+    }
+    .HomeCarousel .react-multiple-carousel__arrow--left {
+        display: block;
+        left: 20px !important;
+
+    }
+}
+@media screen and (max-width:400px) {
+    .HomeCarouselRow{
+        max-width: 280px;
+    }
+    .Homecard{
+        max-width: 240px;
+        margin-left: 15px;
+    }
+    .HomeBlogger{
+        max-width: 240px !important;
+        max-height: 200px;
+    }
+    .Homecard-body{
+        max-width: 240px !important;
+    }
+    .HomeCarousel .react-multiple-carousel__arrow--right {
+      right: 0px !important;
+  }
+  .HomeCarousel .react-multiple-carousel__arrow--left {
+      left: unset !important;
+      left: 0px !important;
+  }
+  .HomeCenterCircle{
+      top: 180px;
+  }
+}

@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200&display=swap');
+.CoverSection {
+    background: linear-gradient(180deg, #fff 0,#00fffb) !important;
+    height: 100%;
+}
+.AdType{
+    font-family: Bebas Neue;
+    color: #01aaf7;
+    font-size: 26px;
+    line-height: 30px;
+}
+.SellNFTButton{
+    margin-left: 20px;
+}
+.AdMeCaption{
+    font-family: Bebas Neue;
+    font-size: 90px;
+    color:#1a2942;
+    line-height: 1em !important;
+    margin-top: -20px;
+}
+.AdText{
+    font-family: Poppins;
+    font-size: 20px;
+    margin-top: -60px;
+    font-weight: 600;
+}
+.IntroCol{
+    flex: 1;
+    flex: 20%;
+}
+.ImageCol{
+    flex: 1;
+}
+.Split{
+    flex: 1;
+}
+.CoverInRow{
+    width: 1400px;
+    margin-right: 30px;
+    margin-left: 30px;  
+    margin-top: 8vh;
+}
+.IntroImage{
+    max-width: 700px;
+}
+.IntroAd{
+    padding: 20px;
+}
+.SellNFT{
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Bebas Neue;
+    font-size: 25px;
+    background-color: #1b1b1b;
+    border-color: #1b1b1b;
+    color: #fdfe40;
+}
+.SellNFT:hover{
+    background-color:#01e0dd;
+    border: 1px solid #01e0dd;
+}
+@media screen and (max-width:1420px) {
+    .IntroImage{
+        max-width: 650px;
+    } 
+    .AdMeCaption{
+        font-size: 80px;
+    }
+}
+@media screen and (max-width:1375px) {
+    .IntroImage{
+        max-width: 550px;
+    } 
+}
+@media screen and (max-width:1215px) {
+    .IntroImage{
+        max-width: 450px;
+    } 
+    .AdMeCaption{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width:1120px) {
+    .SellNFT{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .HomeButtonGroup{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:990px) {
+    .IntroAd{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .IntroCol{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+            margin-top: 60px;
+    }
+    .HomeButtonGroup{
+       align-items: center;
+    }
+    .AdCaption{
+        margin-top: 10px;
+    }
+    .AdText{
+        margin-top: -40px;
+    }
+    .ImageCol{
+        margin-top: 60px;
+    }
+    .SellNFTButton{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+}
+@media screen and (max-width:740px) {
+    .IntroImage{
+        max-width: 500px;
+    }
+}
+@media screen and (max-width:555px) {
+    .IntroImage{
+        max-width: 300px;
+    }
+    .AdMeCaption{
+        font-size: 80px;
+        margin-top: 0px;
+    }
+    .AdText{
+        margin-top: 0px;
+    }
+
+}
+
+@media screen and (max-width:430px) {
+    .AdMeCaption{
+        font-size: 60px;
+    }
+
+}
+@media screen and (max-width:370px) {
+   .IntroImage{
+       max-width: 200px;
+   }
+   .AdMeCaption{
+       font-size: 40px;
+       line-height: 50px;
+   }
+}

@@ -234,6 +234,9 @@
     .ShortCarouselRow{
         padding: 0px;
     }
+    .UsdYellowFont{
+        font-size:12px !important;
+    }
 }
 /* @media screen and (max-width:990px) {
     .ShortCarouselRow{

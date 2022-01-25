@@ -109,6 +109,9 @@
         background-color: #01e0dd !important;
         width: 240px;
     }
+    .UsdYellowFont{
+        font-size:15px;
+    }
     .SystemCollectionCard{
         width: 240px !important;
     }

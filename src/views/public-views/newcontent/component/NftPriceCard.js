@@ -73,7 +73,8 @@ const SetInit = (props) => {
           <Row className="TicketRow">
             <div className="Col NewContentCol">
               <span className="new-caption">Ticket price</span>
-              <span><img alt="" className="PriceImg" src={ExploreImage.NftPriceCard.EyeImg} />{eth2number(data.contractData.ticketPrice)}<span className="NewContentPrice">[ $1930 ]</span></span>
+              {/* <span><img alt="" className="PriceImg" src={ExploreImage.NftPriceCard.EyeImg} />{eth2number(data.contractData.ticketPrice)}<span className="NewContentPrice">[ $1930 ]</span></span> */}
+              <span><img alt="" className="PriceImg" src={ExploreImage.NftPriceCard.EyeImg} />{eth2number(data.contractData.ticketPrice)}<span className="NewContentPrice">( $1930 )</span></span>
             </div>
             <span className="Split"></span>
             <div className="Col NewContentCol">

@@ -1,0 +1,102 @@
+.ContentNav{
+    width: 100% !important;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.AddedCaption{
+    width: 100%;
+}
+.ContentNav .ant-select-selection-item{
+    background-color: white !important;
+}
+.ContentNav .ant-select-selector{
+    background-color: white !important;
+    border-radius: 10px !important;
+}
+.Rectangle{
+    margin-right: 10px;
+}
+.ContentNav .ant-checkbox-inner{
+    background-color: white !important;
+    border: 1px solid #01e0dd !important;
+}
+.ContentNav .ant-checkbox-inner::after{
+    border-color: #01e0dd !important;
+}
+.CreditRow{
+    margin-right: 35px;
+}
+.SizeSelect{
+    margin-right: 20px;
+}
+.SizeSelect .ant-select-selector{
+    height: 50px !important;
+    border: 1px solid #01e0dd !important;
+}
+.DesSelect .ant-select-selector{
+    height: 50px !important;
+    border: 1px solid #01e0dd !important;
+
+}
+.DesSelect{
+    margin-right: 20px;
+}
+.ContentNav .ant-radio-group{
+    display: flex;
+    border: 0px !important;
+}
+
+.GridViewRadio .ant-radio-button-wrapper{
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px !important;
+}
+@media screen and (max-width:900px) {
+
+    .DesSelect{
+        margin: 0px;
+        margin-top: 10px;
+    }
+    .SizeSelect{
+        margin: 0px;
+        margin-top: 10px;
+        width: 150px !important;
+    }
+    .CreditRow{
+        margin: 0px;
+    }
+    .CreditRow{
+        margin-top: 10px;
+    }
+    .GridViewRadio{
+        margin-top: 10px;
+    }
+}
+.InputSelectRow{
+    width: 95%;
+    padding: 10px;
+}
+.InputSelectRow .ant-select-selector{
+    background-color: white !important;
+    border: 0px !important;
+    padding: 10px;
+}
+.InputSelectRow .ant-select{
+    background-color: white;
+    border: 0px !important;
+}
+.ExploreContent{
+    font-family: Bebas Neue;
+    font-size: 60px;
+    margin-left: 30px;
+    text-align: center;
+}
+@media screen and (max-width:900px) {
+        .ContentNav{
+        flex-direction: column;
+    }
+}

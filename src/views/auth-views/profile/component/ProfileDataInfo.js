@@ -21,8 +21,9 @@ const ProfileDataInfo = (props) => {
         </Row>
         <div className="TransactionTest">
           <p className="TestCaption">Referrals</p>
-          <p className="TotalRefferals">Total Referrals: $209.52</p>
-          <table>
+          {/* <p className="TotalRefferals">Total Referrals: $209.52</p> */}
+          <Row className="TotalRefferals" align="middle"><span className="ToSmallText">Total Referrals</span> : <span className="TotalPriceWhite">$209.52</span></Row>
+          {/* <table>
             <tr>
               <th>Date Referred </th>
               <th>ID</th>
@@ -69,6 +70,57 @@ const ProfileDataInfo = (props) => {
                     src={ExploreImage.NftPriceCard.EyeImg}
                   />
                   0.05 [ <span className="match-usd">$</span> 5.5 ]
+                </td>
+              </tr>
+            </tbody>
+          </table> */}
+          <table>
+            <tr>
+              <th>Date Referred </th>
+              <th>ID</th>
+              <th>Fees Collected</th>
+            </tr>
+            <tbody>
+              <tr>
+                <td>29/12/2021 </td>
+                <td>
+                  {truncate("0x6777A0ffFAB9D9C4a94342F19F4e9e8f0b13F66f")}
+                </td>
+                <td>
+                  <img
+                    alt=""
+                    className="PriceImg"
+                    src={ExploreImage.NftPriceCard.EyeImg}
+                  />
+                  0.05 <span className="match-usd">(</span> <span className="match-usd">$ 5.50</span> <span className="match-usd">)</span>
+                </td>
+              </tr>
+              <tr>
+                <td>29/12/2021 </td>
+                <td>
+                  {truncate("0x6777A0ffFAB9D9C4a94342F19F4e9e8f0b13F66f")}
+                </td>
+                <td>
+                  <img
+                    alt=""  
+                    className="PriceImg"
+                    src={ExploreImage.NftPriceCard.EyeImg}
+                  />
+                  0.09 <span className="match-usd">(</span> <span className="match-usd">$ 5.50</span>  <span className="match-usd">)</span>
+                </td>
+              </tr>
+              <tr>
+                <td>29/12/2021 </td>
+                <td>
+                  {truncate("0x6777A0ffFAB9D9C4a94342F19F4e9e8f0b13F66f")}
+                </td>
+                <td>
+                  <img
+                    alt=""
+                    className="PriceImg"
+                    src={ExploreImage.NftPriceCard.EyeImg}
+                  />
+                  0.05 <span className="match-usd">(</span> <span className="match-usd">$ 5.50</span> <span className="match-usd">)</span>
                 </td>
               </tr>
             </tbody>

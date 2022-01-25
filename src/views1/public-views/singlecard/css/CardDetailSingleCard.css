@@ -1,0 +1,204 @@
+.CardDetailSingleCard{
+    flex: 1;
+    margin-right: 20px;
+    width: 100%;
+}
+.EndNaffleCaption{
+    font-family: Bebas Neue;
+    font-size: 80px;
+    line-height: 50px;
+    margin-top: 20px;
+    width:100%;
+    letter-spacing: -3px;
+}
+.SingleNaffleID{
+    margin-left: 40px;
+}
+.CardDetailSingleCard .p-inputnumber-button{
+    background-color: #01e0dd;
+    border: none;
+}
+.NaffleEndDate{
+    background-color: #01e0dd;
+    max-width: 350px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-family: Bebas Neue;
+    margin-top: 20px;
+}
+
+.EndCardPriceSmall{
+    font-family: Bebas Neue;
+    font-size: 25px;
+    margin-left: 2px;
+    line-height: 25px;
+}
+.SpecSplit{
+    display: flex;
+    width: 80px;
+}
+.SpecSplit2{
+    display: flex;
+    width: 60px;
+}
+.ClockIco{
+    margin-right: 5px;
+}
+
+.EndNaffleCaptionSmall{
+    font-size: 35px;
+    font-family: Bebas Neue;
+    line-height: 50px;
+}
+.CardDetailSingleCard{
+    margin-left: 20px;
+}
+#minmax-buttons{
+    width:40px;
+}
+.EndCardPrice{
+    margin-left: 5px;
+    font-size: 40px;
+    line-height: 30px;
+    width: 100%;
+    font-family: Bebas Neue;
+}
+.TicketPrice1{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    line-height: 30px !important;
+}
+.EndSlash{
+    font-size: 25px;
+    line-height: 25px;
+}
+.TempRow{
+    margin-top: 15px;
+}
+.EndCardCaption{
+    font-size: 25px;
+    line-height:25px;
+    font-family: Bebas Neue;
+    font-weight: 200;
+}
+.SingleUS{
+    font-size: 20px;
+    line-height: 25px;
+    margin-left: 10px;
+    color: lightgray;
+}
+.EndMarkRow{
+    display: flex;
+    flex-direction: row;
+    align-items: bottom !important;
+}
+.EndBuyTicket{
+    background-color: #292929;
+    border-radius: 30px;
+    padding: 5px 20px 5px 20px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    color: #f5fd5d;
+    font-family: Bebas Neue;
+    font-size: 25px;
+    margin-right: 20px;
+    transition:all 0.5s;
+}
+
+.EndBuyTicket:hover{
+    background-color:#01e0dd;
+    color: white;
+}
+@media screen and (max-width:985px) {
+    .CardDetailSingleCard{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:435px) {
+    .EndCardToolBar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .EndNaffleCaption{
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .EndNaffleCaptionSmall{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .CardDetailSingleCard{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .EndCardPIRow{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .OfferDes{
+        width: 100%;
+    }
+    .EndBuyTicket{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:375px) {
+    .NaffleEndDate{
+        width: 200px;
+    }
+}
+.EndListingCaption{
+    background-color: #292929;
+    font-family: Bebas Neue;
+    color: #f5fd5d;
+    font-size: 30px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+}
+.OfferDes{
+    background-color: #01e0dd;
+}
+.OfferDesCaption{
+    font-size: 30px;
+    color: white;
+    font-family: Bebas Neue;
+    border-bottom: 1px solid white;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 20px 0px 20px;
+}
+.OfferDes{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    padding: 0px;
+}
+
+.OfferDesText{
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 20px;
+    min-height: 100px;
+    width: 100%;
+}
+.SpecMark{
+    width: 40px;
+    height: 40px;
+}

@@ -1,0 +1,319 @@
+.PageContent{
+    display: flex;
+    flex-direction: row;
+    z-index: -1;
+}
+.MainContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    margin-bottom: 80px;
+}
+.TicketGrid{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4,1fr) !important;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.NftPriceCard{
+    max-width: 390px;
+    margin: auto;
+}
+
+.FourGrid{
+    max-width: 350px !important;
+}
+.SixGrid{
+    max-width: 280px !important;
+}
+.SixGridCover{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(6,1fr) !important;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.FourGridCover{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4,1fr) !important;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.ExploreSideMenu{
+    width: 50px;
+    height: 50px;
+    top: 180px;
+    z-index: 30;
+}
+@media screen and (min-width:1870px) {
+    .FourGrid{
+        max-width: 380px !important;
+    }
+    .NftPriceCard{
+        max-width: 380px !important;
+    }
+}
+@media screen and (max-width:1870px) {
+    .FourGrid{
+        max-width: 330px !important;
+    }
+    .NftPriceCard{
+        max-width: 330px !important;
+    }
+    .TicketGrid{
+        max-width: 1350px !important;
+    }
+    .FourCircle{
+        top: 170px;
+    }
+    .FourGrid .ant-card-cover{
+        height:200px;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:1620px) {
+    .FourGrid{
+        max-width: 310px !important;
+    }
+    .NftPriceCard{
+        max-width: 310px !important;
+    }
+    .TicketGrid{
+        max-width: 1270px !important;
+    }
+    .FourCircle{
+        top: 140px;
+    }
+    .FourGrid .ant-card-cover{
+        height:170px;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:1550px) {
+    .FourGrid{
+        max-width: 290px !important;
+    }
+    .NftPriceCard{
+        max-width: 290px !important;
+    }
+    .TicketGrid{
+        max-width: 1190px;
+    }
+    .FourCircle{
+        top: 130px;
+    }
+    .FourGrid .ant-card-cover{
+        height:160px;
+        overflow: hidden;
+    }
+
+}
+@media screen and (max-width:1470px) {
+    .FourGrid{
+        max-width: 260px !important;
+    }
+    .NftPriceCard{
+        max-width: 260px !important;
+    }
+    .TicketGrid{
+        max-width: 1070px;
+    }
+    .FourCircle{
+        top: 120px;
+        left:38%;
+    }
+    .FourGrid .ant-card-cover{
+        height:150px;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:1390px) {
+    .FourGrid{
+        max-width: 240px !important;
+    }
+    .NftPriceCard{
+        max-width: 240px !important;
+    }
+    .TicketGrid{
+        max-width: 990px;
+    }
+    .FourCircle{
+        top: 100px;
+    }
+    .FourGrid .ant-card-cover{
+        height:130px;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:1260px) {
+    .FourGrid{
+        max-width: 180px !important;
+    }
+    .NftPriceCard{
+        max-width: 180px !important;
+    }
+    .TicketGrid{
+        max-width: 750px;
+    }
+    .FourCircle{
+        top: 80px;
+        left: 35%;
+        width:50px;
+    }
+    .FourGrid .ant-card-cover{
+        height:100px;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:1020px) {
+    .FourGrid{
+        max-width: 250px !important;
+        grid-template-columns: repeat(auto-fill,250px) !important;
+    }
+    .NftPriceCard{
+        max-width: 250px !important;
+    }
+    .TicketGrid{
+        max-width: 750px !important;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fill,250px) !important;
+    }
+    .FourCircle{
+        top: 120px;
+        left: 40%;
+    }
+    .FourGrid .ant-card-cover{
+        height:140px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width:780px) {
+
+    .TicketGrid{
+        max-width: 450px !important;
+    }
+}
+@media screen and (min-width:1870px) {
+    .SixGrid{
+        max-width: 250px !important;
+    }
+    .NftPriceCard{
+        max-width: 250px;
+    }
+    .SixCircle{
+        top: 120px !important;
+        left: 38%;
+    }
+    .SixGrid .ant-card-cover{
+        height:150px !important;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:1870px) {
+    .SixGrid{
+        max-width: 200px !important;
+    }
+    .NftPriceCard{
+        max-width: 200px;
+    }
+    .TicketGrid{
+        max-width: 1260px;
+    }
+    .SixCircle{
+        top: 90px !important;
+        left: 36%;
+    }
+    .SixGrid .ant-card-cover{
+        height:120px !important;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:1540px) {
+    .SixGrid{
+        max-width: 150px !important;
+    }
+    .NftPriceCard{
+        max-width: 150px;
+    }
+    .TicketGrid{
+        max-width: 960px;
+    }
+    .NftPriceMark{
+        width: 30px !important;
+    }
+    .NftPriceTypeBig{
+        font-size: 18px !important;
+    }
+    .SixCircle{
+        top: 70px !important;
+        left: 32%;
+        width:50px;
+    }
+    .SixGrid .ant-card-cover{
+        height:90px !important;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:1230px) {
+    .SixGrid{
+        max-width: 110px !important;
+    }
+    .NftPriceCard{
+        max-width: 110px;
+    }
+    .TicketGrid{
+        max-width: 720px;
+    }
+    .NftPriceMark{
+        width: 30px !important;
+    }
+    .NftPriceTypeBig{
+        font-size: 18px !important;
+    }
+    .TicketNumber{
+        font-size: 25px !important;
+    }
+    .Price{
+        font-size: 25px !important;
+    }
+    .SixCircle{
+        top: 50px !important;
+        left: 30%;
+        width: 40px;
+    }
+    .NftCollectionName{
+        font-size: 25px;
+    }
+    .SixGrid .ant-card-cover{
+        height:70px !important;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:1020px) {
+    .SixGrid{
+        max-width: 250px !important;
+        grid-template-columns: repeat(auto-fill,250px) !important;
+    }
+    .NftPriceCard{
+        max-width: 250px !important;
+        margin: auto;
+    }
+    .TicketGrid{
+        max-width: 100%;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fill,250px) !important;
+    }
+    .SixCircle{
+        top: 110px !important;
+        left: 38%;
+        width: 60px;
+    }
+    .SixGrid .ant-card-cover{
+        height:140px !important;
+        overflow: hidden;
+    }
+}

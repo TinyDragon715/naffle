@@ -112,12 +112,58 @@
     color: white;
     font-size: 15px;
 }
-
+.FourGrid .UsdYellowFont{
+    font-family:Bebas Neue;
+    font-size:15px;
+}
+.SixGrid .explore-price-row{
+    display:flex;
+    flex-direction:column;
+}
+.SixGrid .UsdYellowFont{
+    font-family:Bebas Neue;
+    font-size:15px;
+}
+.SixGrid .PriceEthH{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+}
+@media screen and (max-width:1280px){
+    .explore-price-row{
+        display:flex;
+        flex-direction:column;
+    }
+    .PriceEthH{
+        display:flex;
+        flex-direction:column;
+        align-items:flex-end;
+    }
+}
+@media screen and (max-width:1230px){
+    .SixGrid .UsdYellowFont{
+        font-family:Bebas Neue;
+        font-size:12px;
+    }
+}
+@media screen and (max-width:1020px){
+    .explore-price-row{
+        display:flex;
+        flex-direction:row;
+    }
+    .PriceEthH{
+        display:flex;
+        flex-direction:row;
+    }
+    .SixGrid .UsdYellowFont{
+        font-family:Bebas Neue;
+        font-size:15px;
+    }
+}
 @media screen and (max-width:640px) {
     .NftPriceCard{
        width: 300px !important;
    }
-
 }
 @media screen and (max-width:560px) {
     .NftPriceCard{

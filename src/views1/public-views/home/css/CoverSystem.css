@@ -1,0 +1,72 @@
+.CoverSystem{
+    background: linear-gradient(180deg,#00fffb,#fff   ) !important;
+}
+
+.SystemInRow{
+    width: 1250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 30px 40px 30px;
+}
+.SystemType{
+    font-family: Bebas Neue;
+    font-size: 24px;
+    color: black;
+}
+
+.SystemCaption{
+    font-size: 50px;
+    font-family: Bebas Neue;
+    line-height: 1em;
+}
+.SystemDes{
+    width: 88%;
+}
+.SystemText{
+    max-width: 680px;
+    font-family: Poppins;
+    color: black;
+    text-align: center;
+    margin-left: 180px;
+    font-weight: 600;
+}
+.SystemInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:1250px) {
+    .SystemDes{
+        flex-direction: column;
+        align-items: center;
+    }
+    .SystemText{
+        margin: 0px;
+        margin-top: 20px;
+    }
+    .SystemInfo{
+        align-items: center;
+    }
+    .SystemCaption{
+        text-align: center;
+    }
+}
+.ViewAllCollection{
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    border-radius: 20px;
+    font-family: Bebas Neue;
+    font-size: 20px;
+    background-color: #1b1b1b;
+    color: #fdfe40;
+    border-color: #1b1b1b;
+    margin-bottom: 30px;
+}
+.ViewAllCollection:hover{
+    background-color:#01e0dd;
+    border: 1px solid #01e0dd;
+}

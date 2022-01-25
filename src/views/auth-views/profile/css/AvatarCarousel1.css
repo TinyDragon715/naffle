@@ -1,0 +1,186 @@
+.Profilecard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: relative;
+    max-width: 250px !important;
+    margin-left: 20px;
+}
+.TextOpenSea{
+    font-weight: 600 !important;
+    font-size: 20px;
+    font-family: Bebas Neue !important;
+}
+.ProfileCarouselRow{
+    max-width: 920px;
+    padding: 20px;
+}
+
+.ProfileBlogger{
+    max-width: 250px !important;
+    height: 190px !important;
+}
+.Profilecard-body{
+    max-width: 250px !important;
+}
+.ProfileCarousel .react-multiple-carousel__arrow--right {
+    right: 0px !important;
+}
+.ProfileCarousel .react-multiple-carousel__arrow--left {
+    left: unset !important;
+    left: 0px !important;
+}
+.ProfileCarousel {
+    width: 100%;
+    margin: auto;
+}
+.ProfileCarouselRow {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.ProfileBloggerRow {
+    margin: auto;
+}
+.ProfileBlogger{
+    border-radius: 20px 20px 0px 0px !important;
+}
+.ProfileCarousel .react-multiple-carousel__arrow {
+    background: none !important;
+
+}
+.ProfileCarousel .react-multi-carousel-track{
+    background-color: unset !important;
+}
+.ProfileCarousel .react-multiple-carousel__arrow::before {
+    color: #01e0dd !important;
+}
+.ProfileCarousel .react-multiple-carousel__arrow{
+    background-color: black !important;
+}
+.Profilecard-title {
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 18px;
+    /* or 100% */
+    text-align: center;
+    /* Main black */
+    color: white;
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 6px;
+}
+.Split{
+    flex: 1;
+}
+.ProfileBNBCCaption{
+    font-family: Bebas Neue;
+    margin-bottom:  10px;
+    font-size: 50px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.Profilecard-body{
+    background-color: #64eeec !important;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 0px 0px 20px 20px !important;
+}
+.ProfileCenterCircle{
+    position: absolute;
+    max-width: 50px;
+    border-radius: 100%;
+    top: 165px;
+}
+.Profilecard-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 100%;
+    /* identical to box height, or 14px */
+    text-align: center;
+    /* Strong grey */
+    color: white;
+    width: 100%;
+    word-wrap: break-word;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.Profilecard-price{
+    margin-top: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 14px */
+    text-align: center;
+    /* Strong grey */
+    color: white;
+}
+@media screen and (max-width:990px) {
+    .ProfileCarouselRow{
+        max-width: 690px;
+    }
+    .ProfileCarousel .react-multiple-carousel__arrow--right {
+        right: 35px !important;
+    }
+    .ProfileCarousel .react-multiple-carousel__arrow--left {
+        left: 0px !important;
+    }
+}
+@media screen and (max-width:720px) {
+    .ProfileCarouselRow{
+        max-width: 390px;
+    }
+    .Profilecard{
+        max-width: 300px;
+        margin-left: 40px;
+    }
+    .ProfileCarousel .react-multiple-carousel__arrow--right {
+        display: block;
+        right: 35px !important;
+    }
+    .ProfileCarousel .react-multiple-carousel__arrow--left {
+        display: block;
+        left: 20px !important;
+
+    }
+}
+@media screen and (max-width:420px) {
+    .ProfileCarouselRow{
+        max-width: 250px;
+    }
+    .Profilecard{
+        max-width: 170px;
+        margin-left: 20px;
+    }
+    .ProfileBlogger{
+        max-width: 170px !important;
+        max-height: 200px;
+    }
+    .Profilecard-body{
+        max-width: 170px !important;
+    }
+    .ProfileCarousel .react-multiple-carousel__arrow--right {
+      right: 0px !important;
+  }
+  .ProfileCarousel .react-multiple-carousel__arrow--left {
+      left: unset !important;
+      left: 10px !important;
+  }
+  .ProfileCenterCircle{
+      top: 180px;
+  }
+}

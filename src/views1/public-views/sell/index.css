@@ -1,0 +1,35 @@
+.SellContentCover ul{
+    background-color: white !important;
+    list-style: none;
+    width: 100%;
+    font-family: Bebas Neue;
+}
+.SellContentCover ul li{
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+}
+.SellContentInRow{
+    width: 800px;
+}
+.SellContentCover{
+    margin: 30px;
+}
+.HightLight{
+    color: #01e0dd;
+}
+.SellCaption{
+    font-family: Bebas Neue;
+    font-size: 40px !important;
+    text-align: center;
+}
+.SellText{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+}
+.MetamaskText{
+    font-size: 20px;
+}
+.link-item {
+    cursor: pointer;
+}

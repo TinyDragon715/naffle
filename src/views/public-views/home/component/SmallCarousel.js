@@ -43,13 +43,13 @@ const AvatarCarousel = () => {
                   <div className="SlideStatusBar">
                     <div className="SystemLeftStatus">
                       <span className="ShortColText Rspace">FLOOR PRICE</span>
-                      <span className="ShortColLeft"><img alt="" className="PriceImg" src={ExploreImage.NftPriceCard.EyeImg} /> 2.69</span>
+                      <span className="ShortColLeft"><img alt="" className="PriceImg" src={ExploreImage.NftPriceCard.EyeImg} /> 2.69<span className="usd-price">( $7,387 )</span></span>
                     </div>
                     <span className="Split"></span>
                     <div className="SystemPriceStautsRead">
                       <span className="TFText">TICKETS FROM</span>
                       <span className="PriceEthH">
-                        <span className="EthPrice"><img alt="" className="PriceImg" src={ExploreImage.NftPriceCard.EyeImg} /> 0.005</span>
+                        <span className="EthPrice"><img alt="" className="PriceImg" src={ExploreImage.NftPriceCard.EyeImg} /> 0.005<span className="usd-price">( $16 )</span></span>
                         {/* <img alt="EthImage" className="EthImage" src={ExploreImage.NftPriceCard.WhiteArrow}/> */}
                       </span>
                     </div>

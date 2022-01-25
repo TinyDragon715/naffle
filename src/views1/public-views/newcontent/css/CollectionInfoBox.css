@@ -1,0 +1,94 @@
+.CollectionInfoBox{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.BoldText{
+    font-weight: 800;
+    margin-left: 5px;
+}
+.NewCollectionDes{
+    font-family: Poppins;
+    max-width: 480px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.UpdateContract{
+    font-family: Poppins;
+    font-size: 25px;
+    line-height:25px;
+    color: #01e0dd;
+}
+.OpenseaView{
+    font-family: Poppins;
+    font-size: 15px;
+    line-height:15px;
+    color: #01e0dd;
+}
+.InfoBoxLogo{
+    font-family: Bebas Neue;
+    font-size: 70px;
+    text-align: center;
+    line-height:70px;
+    margin-bottom: 10px !important;
+}
+.InfoCellBox{
+}
+.InfoCell{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 180px;
+    border: 1px 
+    solid #eee;
+    color: white;
+    background-color: #01e0dd;
+}
+.InfoCell:first-child{
+    border-radius: 20px 0px 0px 20px;
+}
+.InfoCell:last-child{
+    border-radius: 0px 20px 20px 0px;
+}
+/* .InfoCell:first-child{
+    border-radius: 20px 0px 0px 20px;
+}
+.InfoCell:last-child{
+    border-radius: 0px 20px 20px 0px;
+} */
+.NewItemCaption{
+    font-size: 25px;
+    font-family: Poppins;
+    font-style: bold;
+    font-weight: 600;
+}
+.NewItemText{
+    font-family: Poppins;
+}
+.NewItemBlackArrow{
+    width: 15px !important;
+    height: 25px;
+    margin-right: 10px;
+}
+@media screen and (max-width:990px) {
+    .InfoCellBox{
+        display:grid;
+        grid-template-columns: auto auto;
+    }
+    .InfoCell{
+        border-radius: 20px !important;
+    }
+}
+@media screen and (max-width:405px) {
+    .InfoCellBox{
+        display:grid;
+        grid-template-columns: auto;
+    }
+    .InfoCell{
+        border-radius: 20px !important;
+    }
+}

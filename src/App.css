@@ -23,3 +23,9 @@
 .theme-background {
     background-color: #01e0dd !important;
 }
+.usd-price{
+    color:#FFFF01;
+    font-size:18px;
+    margin-left: 5px;
+    font-weight:200;
+}

@@ -1,0 +1,119 @@
+.SystemCollectionRow{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    width: 1200px;
+    gap: 30px;
+}
+.SystemCollectionCard .CenterCircle{
+    position: absolute;
+    max-width: 50px;
+    border-radius: 100%;
+    top: 175px;
+    left: 42%;
+}
+.SystemShortColText{
+    font-weight: 200 !important;
+}
+.SystemShortColText{
+    color: white;
+    font-size: 15px;
+    line-height:5px;
+    font-family: Bebas Neue;
+}
+.SystemPriceStautsRead{
+
+    text-align: right;
+}
+.SystemCollectionCard{
+    margin-top: 30px;
+}
+.SystemCollectionCard:first-child{
+    margin-left: 0px !important;
+}
+.SystemCollectionDes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.SystemCollectionCard .ant-card-body{
+    background-color: #01e0dd !important;
+    border-radius: 0px !important;
+}
+.SystemCollectionCard .ant-card-cover{
+    height: 250px;
+    overflow: hidden;
+}
+.SystemDesTitle{
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 24px;
+    line-height: 1em;
+}
+.Split{
+    flex: 1;
+}
+.SlideStatusBar{
+    width: 100%;
+}
+.SystemDesLowPrice{
+    color: white;
+    font-size: 15px;
+    font-family: Bebas Neue;
+    font-weight: 600;
+    word-wrap: break-word;
+    text-align: center;
+    width: 100%;
+}
+.SystemDesItemCount{
+    color: white;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 15px;
+}
+.SystemCollectionImg{
+    position: relative;
+}
+.SystemCollectionView{
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    margin-top: 10px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:1250px) {
+    .SystemCollectionRow{
+        width: 700px;
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (max-width:770px) {
+    .SystemCollectionRow{
+        width: 400px;
+        grid-template-columns: auto;
+    }
+}
+@media screen and (max-width:460px) {
+    .SystemCollectionRow{
+        width: 240px;
+        grid-template-columns: auto;
+    }
+    .SystemCollectionCard .ant-card-body{
+        background-color: #01e0dd !important;
+        width: 240px;
+    }
+    .SystemCollectionCard{
+        width: 240px !important;
+    }
+    .SystemCollectionCard .ant-card-cover{
+        height: 200px;
+        overflow: hidden;
+    }
+}

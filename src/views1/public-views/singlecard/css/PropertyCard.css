@@ -1,0 +1,13 @@
+#PropertyCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+#PropertyCard .PropertyCardCaption{
+    font-weight: 600;
+    font-family: Bebas Neue;
+    font-size: 20px;
+}

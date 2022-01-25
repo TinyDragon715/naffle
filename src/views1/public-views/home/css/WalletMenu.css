@@ -1,0 +1,44 @@
+
+.MetamaskImg{
+    max-width: 30px;
+}
+.MetamaskText{
+    margin-left: 20px;
+    font-family: Bebas Neue;
+}
+.WalletMenu ul{
+    background-color: white !important;
+    list-style-type: none;
+    text-align: center !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    margin-top: 10px;
+}
+.WalletMenu li{
+    cursor: pointer;
+    border: 1px solid #eee;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+}
+.WalletDes{
+    margin-bottom: 20px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.UserAvatar{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+.UserPersonIco{
+    font-size: 35px;
+}
+.MyWallet{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}

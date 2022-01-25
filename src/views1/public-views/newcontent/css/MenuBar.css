@@ -1,0 +1,202 @@
+.MenuBar{
+    min-height: 100vh;
+    width: 250px;
+    background-color: #01e0dd;
+    padding: 5px;
+    overflow-y: hidden;
+}
+.FilterMenu{
+    color: white;
+    font-family: Bebas Neue;
+}
+.FilterRectangle{
+    margin-right: 10px;
+}
+.CollectionsSubMenu{
+    padding: 10px;
+}
+.ant-menu-item{
+    padding-left: 20px !important;
+}
+.ChildrenSearch{
+    margin-top: 10px;
+    width: 100%;
+}
+.MenuBar .ant-checkbox-inner{
+    background-color: white !important;
+    border: 1px solid #01e0dd !important;
+}
+.MenuBar .ant-checkbox-inner::after{
+    border-color: #01e0dd !important;
+}
+.MenuBar .SubMenu{
+    background-color: #01e0dd;
+    font-family: Bebas Neue;
+    color: white !important;
+    font-size: 20px;
+}
+.MenuBar li{
+    background-color: #01e0dd;
+    width: 100%;
+    margin: 0px !important;
+}
+.ExploreRadio{
+    color: white;
+}
+.ant-menu-submenu{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.MenuItem{
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    width: 100% !important;
+}
+.MenuBar .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
+    background-color: transparent !important;
+}
+.MenuBar .ant-menu-title-content{
+    width: 100% !important;
+    
+}
+.MenuBar .ant-radio{
+    margin: 10px;
+}
+.ExploreRadioGroup{
+    margin-top: 20px;
+    width: 100% !important;
+}
+.ant-menu-submenu-title{
+    border-bottom: 2px solid white;
+    margin: 0px !important;
+}
+/* .ant-menu-submenu:last-child{
+} */
+/* .ant-menu-submenu li{
+    border-right: 1px solid white;
+} */
+ul{
+    background-color: #01e0dd !important;
+    padding: 0px !important;
+}
+.ant-menu-vertical .ant-menu-item::after, .ant-menu-vertical-left .ant-menu-item::after, .ant-menu-vertical-right .ant-menu-item::after, .ant-menu-inline .ant-menu-item::after{
+    all: unset;
+}
+.MenuHeader{
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.ArrowShortIco{
+    font-size: 30px;
+}
+
+.WifiIco{
+    display: flex;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.SubMenuTool{
+    padding: 20px;
+}
+.PricingSet{
+    display: flex;
+}
+.PricingMax{
+    flex: 1;
+}
+.PricingMin{
+    flex: 1;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.PricingMax{
+    background-color: white;
+    border: 1px solid white;
+}
+.PricingSet{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.BetweenText{
+    text-align: center;
+    padding: 10px;
+}
+.ButtonRow{
+    width: 100%;
+    margin-top: 10px;
+}
+.ant-select-selection-item{
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.ant-select-selector{
+    background-color: white !important;
+    border: 1px solid white !important;
+}
+.ant-select-item-option-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px !important;
+}
+.CurrencyDollar{
+    margin-bottom: 2px !important;
+    border: 1px solid white;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.ApplyButton{
+    border: 1px solid white;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85px;
+}
+.HourlyConfirm{
+    margin-right: 10px;
+}
+.CurrencySelect{
+    width: 100% !important;
+}
+.SliderPrice{
+    width: 100%;
+    z-index: 99;
+    position: relative;
+}
+@media screen and (max-width:500px) {
+    .MenuBar{
+        width: 100% !important;
+        min-height: auto !important;
+    }
+
+    .PricingSet{
+        width: 100%;
+    }
+}
+.ant-menu-submenu-arrow{
+    color: white !important;
+}
+.MenuItem{
+    color: white !important;
+}
+.MenuBar .ant-menu-title-content:hover{
+    color: #ffff01 !important;
+}
+
+@media screen and (max-width:540px) {
+    .MenuBar{
+        width: 100% !important;
+    }
+}

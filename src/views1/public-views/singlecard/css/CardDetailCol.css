@@ -1,0 +1,155 @@
+.CardDetailImg{
+    border-radius: 20px;
+    margin-bottom: 30px;
+    max-width: 600px;
+}
+.CardDetailCol{
+    width: 500px !important;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.PropertyContent .ant-collapse-content-box{
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill,150px) !important;
+    justify-content: center;
+    gap: 5px !important;
+
+}
+.ToOpenSea{
+    color: white;
+    font-weight: 600;
+}
+.DetailCollapse{
+    max-width: 600px;
+    background-color: #01e0dd;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+.ant-collapse-content-box{
+    display: flex !important;
+    flex-direction: column !important;
+}
+.DetailCollapse .ant-collapse-header::after{
+    margin-top: 0px !important;
+}
+.DetailContent .ant-collapse-content,.ant-collapse-content-active{
+    background-color: #01e0dd;
+}
+.CardDetailCol .ant-collapse-content{
+    border: none;
+}
+.CardDetailCol .ant-collapse-item{
+    border: none;
+}
+.DetailContent p,span{
+    font-weight: 600;
+}
+.CardDetailCol .ant-collapse{
+    padding: 0px;
+}
+.CardDetailCol .ant-collapse-header::after{
+    content: "";
+    width: 100%;
+    transform: scale(1);
+    margin-top: 20px;
+}
+.CardDetailCol .ant-collapse-header{
+    display: flex;
+    flex-direction: column;
+    color: white !important;
+    font-family: Bebas Neue;
+    font-size: 25px;
+    border-bottom: 2px solid white;
+}
+.RefferalListRow{
+    max-width: 380px;
+    display:flex;
+}
+.CardDetailCol .ant-collapse-content{
+    color: white;
+    font-family: Poppins;
+    font-size: 15px;
+}
+.CardDetailCol .ant-collapse-content-box::-webkit-scrollbar{
+    overflow-y: scroll;
+    width: 8px;
+}
+.CardDetailCol .ant-collapse-content-box::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 20px;
+}
+.CardDetailCol .ant-collapse-content-box::-webkit-scrollbar-track{
+    background-color: lightgray !important;
+    border-radius: 20px;
+}
+.CardDetailCol .ant-collapse-content-box{
+    overflow-y: auto;
+}
+@media screen and (max-width:615px) {
+    .CardDetailImg{
+        width: 500px;
+    }
+    .DetailCollapse{
+        margin-right: 20px !important;
+        margin-left: 20px;
+        width: 100%;
+    }
+    .CardDetailCol{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:555px) {
+    .CardDetailCol{
+        width: 100% !important;
+    }
+    .CardDetailCol{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width:535px) {
+    .CardDetailImg{
+        width: 400px;
+    }
+    .DetailCollapse{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .CardDetailCol{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:435px) {
+    .CardDetailImg{
+        width: 300px;
+    }
+    .DetailCollapse{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .CardDetailCol{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:320px) {
+    .CardDetailImg{
+        width: 250px;
+    }
+    .DetailCollapse{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .CardDetailCol{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

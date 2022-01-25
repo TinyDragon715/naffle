@@ -23,8 +23,6 @@ const PageHeader = (props) => {
   const user = new Moralis.User();
   const [modalVisible, setModalVisible] = useState();
   const [modalLoading, setModalLoading] = useState();
-
-  const [currentUser, setCurrentUser] = useState();
   const [userInfo, setUserInfo] = useState({
     name: "",
     password: "",
@@ -70,14 +68,14 @@ const PageHeader = (props) => {
   const DropdownMenu = (
     <Menu>
       <Menu.Item>
-        <a target="_blank" rel="noopener noreferrer" href="#" onClick={() => setModalVisible(true)}>
+        <Link target="_blank" rel="noopener noreferrer" href="#" onClick={() => setModalVisible(true)}>
           Create Profile
-        </a>
+        </Link>
       </Menu.Item>
       <Menu.Item>
-        <a target="_blank" rel="noopener noreferrer" href="#">
+        <Link target="_blank" rel="noopener noreferrer" href="#">
           Login
-        </a>
+        </Link>
       </Menu.Item>
     </Menu>
   )

@@ -3,7 +3,6 @@
     margin-bottom: 10vh;
 }
 .UserProfile2 table{
-    border: 1px solid red;
     width: 100%;
     font-family: Poppins;
     font-weight: 600;
@@ -11,17 +10,34 @@
 .match-usd{
     color: #f3f31b;
 }
+.ToSmallText{
+    font-family: Poppins;
+    padding-right: 5px;
+}
 .TotalRefferals{
     display: flex;
+    color: white;
     flex-direction: row;
-    font-family: Poppins;
+    font-family: Bebas Neue;
     font-weight: 600;
     font-size: 30px;
     justify-content:center;
     margin-bottom: 0px !important;
 }
-.UserProfile2 tr{
-    border: 1px solid #eee;
+.TotalPriceWhite{
+    padding-left: 5px;
+    font-size: 35px;
+}
+.UserProfile2 table{
+    color: white;
+}
+
+.UserProfile2 th{
+    font-family: Bebas Neue;
+    font-size: 20px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+
 }
 .UserProfileCard{
     width: 950px;
@@ -110,6 +126,7 @@
 .TestCaption{
     font-weight: 800;
     font-size: 30px;
+    color: white;
 }
 .TransactionTest table{
     text-align: center;

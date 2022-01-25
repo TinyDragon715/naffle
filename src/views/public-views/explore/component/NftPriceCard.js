@@ -38,13 +38,33 @@ const SetInit = (props) => {
             <div className="SlideStatusBar">
               <div className="SystemLeftStatus">
                 <span className="ShortColText">Floor</span>
-                <span className="ShortColLeft"><img alt="" className="PriceImg" src={ExploreImage.NftPriceCard.EyeImg} />{eth2number(data.contractData.price)}</span>
+                {/* <span className="ShortColLeft"><img alt="" className="PriceImg" src={ExploreImage.NftPriceCard.EyeImg} />{eth2number(data.contractData.price)}</span> */}
+                <div className="explore-price-row">
+                  <span className="ShortColLeft">
+                    <img
+                      alt=""
+                      className="PriceImg"
+                      src={ExploreImage.NftPriceCard.EyeImg}
+                    />{" "}
+                    2.69
+                  <span className="usd-price">( $7,387 )</span>
+                  </span>
+                </div>
               </div>
               <span className="Split"></span>
               <div className="SystemPriceStautsRead">
                 <span className="SystemShortColText">TICKETS FROM</span>
                 <span className="PriceEthH">
-                  <span className="EthPrice"><img alt="" className="PriceImg" src={ExploreImage.NftPriceCard.EyeImg} />{eth2number(data.contractData.ticketPrice)}</span>
+                  {/* <span className="EthPrice"><img alt="" className="PriceImg" src={ExploreImage.NftPriceCard.EyeImg} />{eth2number(data.contractData.ticketPrice)}</span> */}
+                  <span className="EthPrice">
+                    <img
+                      alt=""
+                      className="PriceImg"
+                      src={ExploreImage.NftPriceCard.EyeImg}
+                    />{" "}
+                    {eth2number(data.contractData.ticketPrice)}
+                  </span>
+                  <span className="usd-price">( $16 )</span>
                 </span>
               </div>
             </div>

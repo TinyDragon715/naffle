@@ -1,0 +1,86 @@
+.SystemCardItem .ant-card-body{
+    background-color: white !important;
+    width: 400px !important;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px !important;
+}
+.ant-card{
+    border-radius: 15px;
+}
+.SysCardDes{
+    flex: 1;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.SysCardImg{
+    width: 80px;
+}
+.SysCardCaption{
+    font-family: Bebas Neue;
+    font-size: 20px;
+}
+.SysCardText{
+    font-family: Poppins;
+    font-size: 15px;
+}
+.SystemCard{
+    margin-top: 80px;
+}
+.SysCardInRow{
+    width: 1220px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 5px !important;
+}
+
+@media screen and (max-width:1250px) {
+    .SysCardInRow{
+        width: 820px;
+        grid-template-columns: auto auto;
+    }   
+}
+@media screen and (max-width:880px) {
+    .SysCardInRow{
+        width: 420px;
+        grid-template-columns: auto;
+    }
+    .SystemCardItem .ant-card-body{
+        width: 415px !important;
+    }
+}
+@media screen and (max-width:480px) {
+    .SysCardInRow{
+        width: 320px !important;
+        grid-template-columns: auto;
+    }
+    .SystemCardItem .ant-card-body{
+        width: 320px !important;
+    }
+}
+@media screen and (max-width:380px) {
+    .SysCardRow{
+        flex-direction: column;
+        align-items: center;
+    }
+    .SysCardInRow{
+        width: 220px !important;
+        grid-template-columns: auto;
+        height: 100% !important;
+    }
+    .SystemCardItem .ant-card-body{
+        width: 220px !important;
+        height: 100% !important;
+    }
+    .SysCardInRow .ant-card{
+        width: 220px !important;
+    }
+    .SysCardDes{
+        text-align: center;
+        margin: 0px;
+        margin-top: 10px;
+    }
+}

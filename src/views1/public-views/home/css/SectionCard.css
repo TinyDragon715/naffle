@@ -1,0 +1,78 @@
+.CardRow{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.NftCard{
+    width: 390px !important;
+    margin-left: 20px;
+}
+.NftCard:first-child{
+    margin-left: 0px !important;
+}
+.NftDes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.CardRow .ant-card-body{
+    background-color: #01e0dd !important;
+}
+.NFtTitle{
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 24px;
+}
+.NftText{
+    color: white;
+    font-size: 15px;
+}
+.NftView{
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    margin-top: 10px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+}
+.SectionCardItemImg{
+    border-radius: 20px 20px 0px 0px !important;
+}
+@media screen and (max-width:1270px) {
+
+    .NftCard{
+        margin: 10px;
+        margin-top: 30px;
+        width: 300px !important;
+    }
+}
+@media screen and (max-width:1010px) {
+    .CardRow{
+        flex-direction: column;
+        
+    }
+    .NftCard{
+        margin: 0px;
+        margin-top: 30px;
+        width: 500px !important;
+    }
+}
+@media screen and (max-width:740px) {
+   .CardRow{
+       margin-top: 120px;
+   }
+}
+@media screen and (max-width:545px) {
+    .NftCard{
+        max-width: 260px;
+    }
+    .CardRow{
+        margin-top: 80px;
+    }
+ }
+ @media screen and (max-width:400px) {
+    .CardRow{
+        margin-top: 60px;
+    }
+ }

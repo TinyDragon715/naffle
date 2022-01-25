@@ -25,7 +25,7 @@ const SetInit = (props) => {
         <div className="SlideStatusBar">
           <div className="SystemLeftStatus">
             <span className="ShortColText">Floor</span>
-            <span className="ShortColLeft"><img alt="" className="PriceImg" src={ExploreImage.NftPriceCard.EyeImg} /> 2.69</span>
+            <span className="ShortColLeft"><img alt="" className="PriceImg" src={ExploreImage.NftPriceCard.EyeImg} /> 2.69<span className="usd-price">( $7,387 )</span></span>
           </div>
           <span className="Split"></span>
           <div className="SystemPriceStautsRead">
@@ -36,7 +36,7 @@ const SetInit = (props) => {
                 className="EthImage"
                 src={ExploreImage.NftPriceCard.WhiteArrow}
               /> */}
-              <span className="EthPrice"><img alt="" className="PriceImg" src={ExploreImage.NftPriceCard.EyeImg} /> 0.005</span>
+              <span className="EthPrice"><img alt="" className="PriceImg" src={ExploreImage.NftPriceCard.EyeImg} /> 0.005<span className="usd-price">( $16 )</span></span>
             </span>
           </div>
         </div>

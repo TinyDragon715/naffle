@@ -1,0 +1,275 @@
+.Shortcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: relative;
+    max-width: 410px !important;
+}
+
+.ShortBlogger{
+    max-width: 410px !important;
+    height: 370px !important;
+}
+.Short-body{
+    width: 400px !important;
+    background-color: #01e0dd;
+    padding: 10px 10px 10px 10px;
+}
+.ShortCarousel{
+    max-width: 460px;
+    display:flex;
+}
+.ShortCardImgCover{
+    height:330px;
+    overflow:hidden;    
+}
+.SlideStatusBar{
+    display:flex;
+}
+
+.LeftStatus{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.PriceStautsRead{
+    display:flex;
+    flex-direction: column;
+}
+.ShortColText{
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    font-weight: 200 !important;
+    line-height:15px;
+}
+.TFText{
+    font-size: 15px;
+    line-height:15px;
+    font-family: Bebas Neue;
+    color: white;
+    font-weight: 200 !important;
+
+}
+.PriceEthH{
+    font-family: Bebas Neue;
+    font-size: 20px;
+    color: white;
+    line-height:20px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: -3px;
+}
+.EthPrice{
+    margin-left: 2px;
+    font-size: 20px;
+    line-height:20px;
+}
+.ShortColLeft{
+    font-family: Bebas Neue;
+    font-size: 20px;
+    color: white;
+    line-height:20px;
+}
+.EthImage{
+    max-width: 15px;
+}
+
+
+.ShortCarouselRow{
+    padding: 20px;
+    flex: 1;
+}
+
+
+.ShortCarousel .react-multiple-carousel__arrow--right {
+    right: 0px !important;
+    display: none;
+}
+.ShortCarousel .react-multiple-carousel__arrow--left {
+    left: unset !important;
+    left: 0px !important;
+    display: none;
+}
+.ShortCarousel {
+    width: 100%;
+    margin: auto;
+}
+.ShortCarouselRow {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.ShortBloggerRow {
+    margin: auto;
+}
+
+.ShortCarousel .react-multiple-carousel__arrow {
+    background: none !important;
+
+}
+.ShortCarousel .react-multi-carousel-track{
+    background-color: unset !important;
+}
+.ShortCarousel .react-multiple-carousel__arrow::before {
+    color: #01e0dd !important;
+}
+.ShortCarousel .react-multiple-carousel__arrow{
+    background-color: black !important;
+}
+.Shortcard-title {
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 25px;
+    /* or 100% */
+    text-align: center;
+    /* Main black */
+    color: white;
+    width: 100%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.Split{
+    flex: 1;
+}
+.ShortBNBCCaption{
+    font-family: Bebas Neue;
+    font-size: 50px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.Shortcard-body{
+    background-color: #01e0dd !important;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px !important;
+}
+.ShortCenterCircle{
+    position: absolute;
+    max-width: 80px;
+    border-radius: 100%;
+    top: 205px;
+}
+.Shortcard-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 14px */
+    text-align: center;
+    /* Strong grey */
+    color: white;
+    width: 100%;
+    word-wrap: break-word;
+    font-weight: 100;
+}
+.Shortcard-price{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 14px */
+    text-align: center;
+    /* Strong grey */
+    color: white;
+}
+@media screen and (max-width:550px) {
+    .Shortcard {
+        max-width: 310px !important;
+    }
+    .ShortBlogger{
+        max-width: 310px !important;
+        height: 240px !important;
+    }
+    .Short-body{
+        width: 310px !important;
+    }
+    .ShortCarousel{
+        max-width: 360px;
+    }
+    .ShortCardImgCover{
+        height:160px;
+    }
+    .ShortCenterCircle{
+        top: 135px;
+        width: 70px;
+    }
+}
+@media screen and (max-width:450px) {
+    .Shortcard {
+        max-width: 210px !important;
+    }
+    .ShortBlogger{
+        max-width: 210px !important;
+        height: 160px !important;
+    }
+    .Short-body{
+        width: 210px !important;
+    }
+    .ShortCarousel{
+        max-width: 260px;
+    }
+    .ShortCardImgCover{
+        height:100px;
+    }
+    .ShortCenterCircle{
+        top: 85px;
+        width: 40px;
+    }
+    .ShortCarouselRow{
+        padding: 0px;
+    }
+}
+/* @media screen and (max-width:990px) {
+    .ShortCarouselRow{
+        max-width: 690px;
+    }
+    .ShortCarousel .react-multiple-carousel__arrow--right {
+        right: 35px !important;
+    }
+    .ShortCarousel .react-multiple-carousel__arrow--left {
+        left: 0px !important;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .ShortCarouselRow{
+        max-width: 250px;
+    }
+    .Shortcard{
+        max-width: 170px;
+        margin-left: 20px;
+    }
+    .ShortBlogger{
+        max-width: 170px !important;
+        max-height: 200px;
+    }
+    .Shortcard-body{
+        max-width: 170px !important;
+    }
+    .ShortCarousel .react-multiple-carousel__arrow--right {
+      right: 0px !important;
+  }
+  .ShortCarousel .react-multiple-carousel__arrow--left {
+      left: unset !important;
+      left: 10px !important;
+  }
+  .ShortCenterCircle{
+      top: 180px;
+  }
+} */

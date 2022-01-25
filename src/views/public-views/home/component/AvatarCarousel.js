@@ -39,7 +39,7 @@ const AvatarCarousel = () => {
                   <div className="UpdateCardText">
                     <div className="UpdateTP Col">
                       <span className="TLLeft">Ticket price</span>
-                      <span className="TLtext"><img alt="" className="PriceImg" src={ExploreImage.NftPriceCard.EyeImg} /> 0.005</span>
+                      <span className="TLtext"><img alt="" className="PriceImg" src={ExploreImage.NftPriceCard.EyeImg} /> 0.005<span className="usd-price">( $16 )</span></span>
                     </div>
                     <span className="Split"></span>
                     <div className="UpdateTL ColLeft">
